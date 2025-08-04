@@ -1,25 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-}
-
-:root {
-  --color_header: rgba(0, 0, 0, 0.7);
-  --color_footer: rgba(0, 0, 0, 0.7);
-  --color_text-primary: #ffffff;
-  --size_text-parrafo: 16px;
-  --size_text-primary: 20px;
-}
 
 
 
-body {
-  height: 100vh;
-}
-
+/*Header empieza*/
 header {
   width: 100%;
   height: 90px;
@@ -173,71 +155,4 @@ a {
 a:hover {
   color: grey;
 }
-
-body {
-  background-image: url(../../assets/img/3603-videojuegos.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-
-}
-
-
-.container_games {
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-top: 130px;
-  /* Agregar espacio para el footer */
-  /* Espacio para el header */
-  padding-bottom: 3vh;
-}
-
-/* Contenedor principal */
-.juegos_caja {
-  position: relative;
-  display: inline-block;
-  width: 300px;
-  margin: 10px;
-  text-align: center;
-  margin-top: 20px;
-}
-
-/* Imagen del juego */
-.juegos_caja img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  display: block;
-  transition: transform 0.3s ease;
-}
-
-/* Nombre del juego */
-.juegos_caja .game-name {
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  /* Alineamos al contenedor */
-  right: 0;
-  /* Extiende el ancho del texto */
-  margin: 0 auto;
-  /* Mantiene el texto centrado */
-  background-color: rgba(0, 0, 0, 0.8);
-  color: var(--color_text-primary);
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  transition: transform 0.3s ease;
-}
-
-/* Efecto de zoom en todo el contenedor */
-.juegos_caja:hover img,
-.juegos_caja:hover .game-name {
-  transform: scale(1.05);
-  /* Ambos elementos se amplÃ­an juntos */
-}
+/*Header Termina*/
